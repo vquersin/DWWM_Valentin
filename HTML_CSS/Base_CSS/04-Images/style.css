@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*img{
+    width: 650px;
+    height: 250px;
+    object-fit: cover;
+}*/
+
+.imgFond{
+    height: 100vh;
+    background-color: coral;
+    background-image: url('singe.jpeg');
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    background-size: cover;
+}
