@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.placement{
+    margin: 150px auto;
+    text-align: center;
+}
+
+.button{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    border: 5px solid rgba(12, 12, 190, 0.568);
+    border-radius: 15px;
+    box-shadow: 5px 5px rgba(179, 179, 179, 0.5);
+    padding: 0 10px;
+}

@@ -1,0 +1,36 @@
+/* selecteur */
+h1{
+    color: blue;
+    font-size: 45px;
+}
+
+/* differents selector disponible */
+
+/* class */
+.title{
+    text-decoration: underline;
+}
+/* ID */
+#title-1{
+    font-style: oblique;
+    background-color: mediumslateblue;
+    color: gold;
+}
+
+.title.first-title{
+    padding: 20px;
+}
+/* class + balise */
+
+.container p{
+    font-size: 30px;
+    color: blueviolet;
+}
+
+/* selector universel */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

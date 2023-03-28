@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #cbc7c7;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 150px;
+    /* named color */
+    background-color: salmon;
+
+    /* RGB */
+    background-color: rgb(45, 78, 221);
+    background-color: rgba(155, 220, 30, 0.5);
+
+    /* Hexa */
+    background-color: #fa8072;
+
+    /*  */
+    border: 10px solid blue;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
