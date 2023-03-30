@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightblue;
+    padding: 30px;
+}
+
+.orange{
+    width: 100%;
+    height: 20vh;
+    background-color: orangered;
+    margin-bottom: 20px;
+}
+
+.panelCentral{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 20px;
+}
+
+.grey{
+    flex: 1;
+    height: 50vh;
+    background-color: grey;
+    margin-right: 20px;
+}
+
+.triColor{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content:space-between ;
+    flex: 3;
+    height: 50vh;
+}
+
+.yellow{
+    height: 12vh;
+    width:100%;
+    background-color: yellow;
+}
+
+.darkBlue{
+    height: 12vh;
+    width:100%;
+    background-color: blue;
+}
+
+.lightGreen{
+    height: 12vh;
+    width:100%;
+    background-color: lightgreen;
+}
+
+.green{
+    width: 100%;
+    height: 10vh;
+    background-color: orangered;
+}

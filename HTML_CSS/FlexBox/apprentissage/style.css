@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 25px 0;
+}
+/*------------------------------ DIRECTION & JUSTIFY-CONTENT & TEXT-ALIGN -----------------------------------------*/
+.panel{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center; /* Axes X */
+    align-items: center; /* Axes Y */
+    column-gap: 5%;
+}
+.container{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center; /* "justify-content" = Axes X */
+    align-items: center; /* "align-items" = Axes Y */
+    justify-content: space-around;
+}
+
+.co1{
+    flex-direction: row;
+    width: 700px;
+    height: 140px;
+    column-gap: 10%;
+}
+
+.co2{
+    flex-direction: row-reverse;
+    width: 700px;
+    height: 140px;
+    column-gap: 10%;
+}
+
+.co3{
+    flex-direction: column;
+    width: 250px;
+    height: 450px;
+    row-gap: 10%;
+}
+
+.co4{
+    flex-direction: column-reverse;
+    width: 250px;
+    height: 450px;
+    row-gap: 10%;
+}
+.child{
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+}
+
+/*------------------------------ LIGNES FLEXIBLES -----------------------------------------*/
+
+
+.panel2{
+    margin-bottom: 50px;
+    background-color: cadetblue;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+}
+
+.c{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 150px;
+    height: 150px;
+}

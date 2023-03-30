@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 250px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.orangeGrey{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.grey{
+    width: 45%;
+    height: 100%;
+    background-color: grey;
+}
+
+.yellow{
+    width: 100%;
+    height: 10vh;
+    background-color: yellow;
+}
+
+.quadraOrange{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+}
+
+.og{
+    width: 45%;
+    height: 100%;
+}
+
+.q{
+    width: 20%;
+    height: 100%;
+}
+
+.doubleYellow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+}
+
+.yellowD{
+    width: 45%;
+    height: 10vh;
+    background-color: yellow;
+}
+
+.green{
+    width: 100%;
+    height: 10vh;
+    background-color: green;
+}
+
+
+
+
+
+.sep1{
+    width: 100%;
+    height: 20px;
+}
+
+.sep2{
+    width: 100%;
+    height: 40px;
+}
+.sep3{
+    width: 100%;
+    height: 40px;
+}
+.sep4{
+    width: 100%;
+    height: 5px;
+}
